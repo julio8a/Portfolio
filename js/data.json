@@ -25,7 +25,11 @@
         ]},
         { "experience" : [
             {
-                "dateCompany":"2017 to Present – Esri",
+                "dateCompany":"2021 to Present – BlueOwl / HiRoad",
+                "jobTitle": "Design Systems Lead"
+            },
+            {
+                "dateCompany":"2017 to 2021 – Esri",
                 "jobTitle": "Design Program Manager"
             },
             {
@@ -43,10 +47,6 @@
             {
                 "dateCompany":"2011 to 2013 – FindLegalForms Inc.",
                 "jobTitle": "UI / UX & Front-End Developer"
-            },
-            {
-                "dateCompany":"2009 to 2015 – JCO Designs",
-                "jobTitle": "Owner / Information Architect"
             }
         ]},
         { "navigation" : [
