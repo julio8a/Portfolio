@@ -50,7 +50,7 @@ module.exports = function(grunt) {
                 'urb-ob-site/images/*.{png,jpg,gif}',
                 'urb-ob-ui/images/*.{png,jpg,gif}',
                 'web-app-builder/images/*.{png,jpg,gif}',
-                'workforce/images/*.{png,jpg,gif}',
+                'calcite-design-system/images/*.{png,jpg,gif}',
                 'zip-tapestry/images/*.{png,jpg,gif}',
                 'calcite-ui-icons/images/*.{png,jpg,gif}',
                 'esri-product-logos/images/*.{png,jpg,gif}',
@@ -66,7 +66,7 @@ module.exports = function(grunt) {
         sever: {
           options: {
             hostname: 'localhost',
-            port: 3000,
+            port: 3333,
             base: 'dist/',
             livereload: true
           }
