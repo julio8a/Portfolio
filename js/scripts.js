@@ -160,7 +160,7 @@ $(function() {
 		  if ($(this).hasClass("block4")) { $("#project").load("projects/public-health/index.html", function(){ currentProject = 4; openproject() } ); } ;
 		  if ($(this).hasClass("block5")) { $("#project").load("projects/inca/index.html", function(){ currentProject = 5;openproject() } ); } ;
 		  if ($(this).hasClass("block7")) { $("#project").load("projects/industries/index.html", function(){ currentProject = 7; openproject() } ); } ;
-		  if ($(this).hasClass("block8")) { $("#project").load("projects/workforce/index.html", function(){ currentProject = 8; openproject() } ); } ;
+		  if ($(this).hasClass("block8")) { $("#project").load("projects/calcite-design-system/index.html", function(){ currentProject = 8; openproject() } ); } ;
 		  if ($(this).hasClass("block9")) { $("#project").load("projects/dashboard/index.html", function(){ currentProject = 9; openproject() } ); } ;
 		  if ($(this).hasClass("block11")) { $("#project").load("projects/my-esri/index.html", function(){ currentProject = 11; openproject() } ); } ;
 		  if ($(this).hasClass("block13")) { $("#project").load("projects/calcite-ui-icons/index.html", function(){ currentProject = 13; openproject() } ); } ;
@@ -179,7 +179,7 @@ $(function() {
 		  if ($(this).hasClass("icon4")) { $("#project").load("../projects/public-health/index.html", function(){ currentProject = 4; vTop2 = "830px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon5")) { $("#project").load("../projects/inca/index.html", function(){ currentProject = 5; vtop2 = "830px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon7")) { $("#project").load("../projects/industries/index.html", function(){ currentProject = 7; vTop2 = "1260px"; openproject() } ); } ;
-		  if ($(this).hasClass("icon8")) { $("#project").load("../projects/workforce/index.html", function(){ currentProject = 8; vTop2 = "1260px"; openproject() } ); } ;
+		  if ($(this).hasClass("icon8")) { $("#project").load("../projects/calcite-design-system/index.html", function(){ currentProject = 8; vTop2 = "1260px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon9")) { $("#project").load("../projects/dashboard/index.html", function(){ currentProject = 9; vTop2 = "1260px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon11")) { $("#project").load("../projects/my-esri/index.html", function(){ currentProject = 11; vTop2 = "1260px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon13")) { $("#project").load("../projects/calcite-ui-icons/index.html", function(){ currentProject = 13; vTop2 = "1260px"; openproject() } ); } ;
