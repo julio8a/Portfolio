@@ -25,8 +25,12 @@
         ]},
         { "experience" : [
             {
-                "dateCompany":"2017 to Present – Esri",
-                "jobTitle": "Design Program Manager"
+                "dateCompany":"2021 to Present – BlueOwl / HiRoad",
+                "jobTitle": "Design Systems Lead"
+            },
+            {
+                "dateCompany":"2017 to 2021 – Esri",
+                "jobTitle": "Design System Lead"
             },
             {
                 "dateCompany":"2016 to 2017 – Esri",
@@ -43,10 +47,6 @@
             {
                 "dateCompany":"2011 to 2013 – FindLegalForms Inc.",
                 "jobTitle": "UI / UX & Front-End Developer"
-            },
-            {
-                "dateCompany":"2009 to 2015 – JCO Designs",
-                "jobTitle": "Owner / Information Architect"
             }
         ]},
         { "navigation" : [
@@ -69,7 +69,7 @@
                 "name": "Contact"
             },
             {
-                "URL":"/blog/index.html",
+                "URL":"https://blog.julio8a.com",
                 "className": "",
                 "active": "",
                 "name": "Blog"
@@ -86,7 +86,7 @@
             {
                 "number":"8",
                 "projectName":"Calcite Design System",
-                "role":"Design System",
+                "role":"Design System Lead",
                 "imageURL":"calcite-design-system/images/thumb.jpg",
                 "theme":""
             },            
@@ -120,7 +120,7 @@
             },  
             {
                 "number":"5",
-                "projectName":"Inca Train – Office App",
+                "projectName":"Inca Train – Office App",
                 "role":"Native App",
                 "imageURL":"inca/images/thumb.jpg",
                 "theme":""
