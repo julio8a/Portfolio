@@ -25,12 +25,16 @@
         ]},
         { "experience" : [
             {
-                "dateCompany":"2021 to Present – BlueOwl / HiRoad",
+                "dateCompany":"2022 to Present – Yahoo!",
+                "jobTitle": "Design Systems Lead"
+            },
+            {
+                "dateCompany":"2021 to 2022 – State Farm/BlueOwl",
                 "jobTitle": "Design Systems Lead"
             },
             {
                 "dateCompany":"2017 to 2021 – Esri",
-                "jobTitle": "Design System Lead"
+                "jobTitle": "Manager, Design System"
             },
             {
                 "dateCompany":"2016 to 2017 – Esri",
@@ -39,10 +43,6 @@
             {
                 "dateCompany":"2013 to 2016 – Esri",
                 "jobTitle": "UI / UX Designer"
-            },
-            {
-                "dateCompany":"2015 to 2015 – University of Redlands",
-                "jobTitle": "Adjunct Instructor"
             },
             {
                 "dateCompany":"2011 to 2013 – FindLegalForms Inc.",
