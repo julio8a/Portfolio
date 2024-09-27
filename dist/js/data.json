@@ -77,26 +77,26 @@
         ]},
         { "projectBlock" : [
             {
+                "number":"17",
+                "projectName":"Automated System Icons",
+                "role":"Design Systems",
+                "imageURL":"automated-system-icons/images/thumb.jpg",
+                "theme":"light"
+            },  
+            {
                 "number":"16",
                 "projectName":"Calcite Components",
-                "role":"Web Components",
+                "role":"Design Systems",
                 "imageURL":"calcite-components/images/thumb.jpg",
                 "theme":"light"
             },  
             {
                 "number":"8",
                 "projectName":"Calcite Design System",
-                "role":"Design System",
+                "role":"Design Systems",
                 "imageURL":"calcite-design-system/images/thumb.jpg",
-                "theme":""
+                "theme":"dark"
             },            
-            {
-                "number":"13",
-                "projectName":"Calcite-ui-icons",
-                "role":"SVG icon library",
-                "imageURL":"calcite-ui-icons/images/thumb.jpg",
-                "theme":"light"
-            },  
             {
                 "number":"14",
                 "projectName":"Esri Product Logos",
@@ -115,7 +115,7 @@
                 "number":"3",
                 "projectName":"Urban Observatory App",
                 "role":"Interactive App",
-                "imageURL":"urb-ob-ui/images/thumb.jpg",
+                "imageURL":"urb-ob/images/thumb.jpg",
                 "theme":""
             },  
             {
@@ -132,13 +132,6 @@
                 "imageURL":"zip-tapestry/images/thumb.jpg",
                 "theme":""
             },  
-            {
-                "number":"2",
-                "projectName":"Urban Observatory",
-                "role":"Website",
-                "imageURL":"urb-ob-site/images/thumb.jpg",
-                "theme":""
-            },            
             {
                 "number":"4",
                 "projectName":"Florida Environmental Public Health App",

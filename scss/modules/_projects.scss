@@ -154,26 +154,6 @@
 			margin: 66px 0 0 143px;
 		}
 	}
-	.infos {
-		display:table;
-		margin:0 auto;
-		opacity:0;
-	  transition: all 0.3s ease-out;
-		transition-delay: 0s;
-		p {
-			font-weight:normal;
-			-webkit-font-smoothing:antialiased;
-			text-transform:uppercase;
-			font-size:.9rem;
-			line-height:20px;
-			color:$white;
-			float:left;
-			padding:0 35px;
-			width:auto;
-			display:block;
-			position:relative;
-		}
-	}
 	.capture {
 		@include break(1109px) {
 			width: 100%;
@@ -275,11 +255,6 @@
 			opacity:1;
 		  transition: all 0.3s ease-out;
 			transition-delay: 1.2s;
-		}
-		.infos {
-			opacity:1;
-		  transition: all 0.3s ease-out;
-			transition-delay: 1.5s;
 		}
 		#captures {
 			opacity:1;

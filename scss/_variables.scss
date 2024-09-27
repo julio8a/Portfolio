@@ -13,13 +13,14 @@ $white: #fff;
 
 // Project Colors
 $tapestry: $dark-gray;
-$urbOb1: #e00000;
+$urbOb1: #2b0000;
 $urbOb2: #1a1a1a;
 $publicHealth: $color-main;
 $inca: #359600;
 $industries: #00598c;
-$calciteDesignSystem: #2d2670;
-$dashboard: #f3b20a;
+$calciteDesignSystem: #030021;
+$automatedSystemIcons: #fff;
+$dashboard: #2c1f00;
 $myEsri: #404040;
 $calciteUiIcons: $white;
 $calciteComponents: $white;
@@ -43,6 +44,7 @@ $border-black: 1px solid $black;
 $border-blue: 1px solid $color-main;
 
 $project-themes: (
+    17: $automatedSystemIcons,
     16: $calciteComponents,
     14: $esriProductLogos,
     13: $calciteUiIcons,
