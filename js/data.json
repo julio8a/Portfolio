@@ -25,16 +25,8 @@
         ]},
         { "experience" : [
             {
-                "dateCompany":"2022 to Present – Yahoo!",
-                "jobTitle": "Design Systems Lead"
-            },
-            {
-                "dateCompany":"2021 to 2022 – State Farm/BlueOwl",
-                "jobTitle": "Design Systems Lead"
-            },
-            {
-                "dateCompany":"2017 to 2021 – Esri",
-                "jobTitle": "Manager, Design System"
+                "dateCompany":"2017 to Present – Esri",
+                "jobTitle": "Design Program Manager"
             },
             {
                 "dateCompany":"2016 to 2017 – Esri",
@@ -45,8 +37,16 @@
                 "jobTitle": "UI / UX Designer"
             },
             {
+                "dateCompany":"2015 to 2015 – University of Redlands",
+                "jobTitle": "Adjunct Instructor"
+            },
+            {
                 "dateCompany":"2011 to 2013 – FindLegalForms Inc.",
                 "jobTitle": "UI / UX & Front-End Developer"
+            },
+            {
+                "dateCompany":"2009 to 2015 – JCO Designs",
+                "jobTitle": "Owner / Information Architect"
             }
         ]},
         { "navigation" : [
@@ -69,7 +69,7 @@
                 "name": "Contact"
             },
             {
-                "URL":"https://blog.julio8a.com",
+                "URL":"/blog/index.html",
                 "className": "",
                 "active": "",
                 "name": "Blog"
@@ -77,26 +77,26 @@
         ]},
         { "projectBlock" : [
             {
+                "number":"17",
+                "projectName":"Automated System Icons",
+                "role":"Design Systems",
+                "imageURL":"automated-system-icons/images/thumb.jpg",
+                "theme":"light"
+            },  
+            {
                 "number":"16",
                 "projectName":"Calcite Components",
-                "role":"Web Components",
+                "role":"Design Systems",
                 "imageURL":"calcite-components/images/thumb.jpg",
                 "theme":"light"
             },  
             {
                 "number":"8",
                 "projectName":"Calcite Design System",
-                "role":"Design System Lead",
+                "role":"Design Systems",
                 "imageURL":"calcite-design-system/images/thumb.jpg",
-                "theme":""
+                "theme":"dark"
             },            
-            {
-                "number":"13",
-                "projectName":"Calcite-ui-icons",
-                "role":"SVG icon library",
-                "imageURL":"calcite-ui-icons/images/thumb.jpg",
-                "theme":"light"
-            },  
             {
                 "number":"14",
                 "projectName":"Esri Product Logos",
@@ -115,12 +115,12 @@
                 "number":"3",
                 "projectName":"Urban Observatory App",
                 "role":"Interactive App",
-                "imageURL":"urb-ob-ui/images/thumb.jpg",
+                "imageURL":"urb-ob/images/thumb.jpg",
                 "theme":""
             },  
             {
                 "number":"5",
-                "projectName":"Inca Train – Office App",
+                "projectName":"Inca Train – Office App",
                 "role":"Native App",
                 "imageURL":"inca/images/thumb.jpg",
                 "theme":""
@@ -132,13 +132,6 @@
                 "imageURL":"zip-tapestry/images/thumb.jpg",
                 "theme":""
             },  
-            {
-                "number":"2",
-                "projectName":"Urban Observatory",
-                "role":"Website",
-                "imageURL":"urb-ob-site/images/thumb.jpg",
-                "theme":""
-            },            
             {
                 "number":"4",
                 "projectName":"Florida Environmental Public Health App",

@@ -155,18 +155,19 @@ $(function() {
 	  
 		$(".block").click(function(){
 		  if ($(this).hasClass("block1")) { $("#project").load("projects/zip-tapestry/index.html", function(){ currentProject = 1; openproject() } ); } ;
-		  if ($(this).hasClass("block2")) { $("#project").load("projects/urb-ob-site/index.html", function(){ currentProject = 2; openproject() } ); } ;
-		  if ($(this).hasClass("block3")) { $("#project").load("projects/urb-ob-ui/index.html", function(){ currentProject = 3; openproject() } ); } ;
+		//   if ($(this).hasClass("block2")) { $("#project").load("projects/urb-ob-site/index.html", function(){ currentProject = 2; openproject() } ); } ;
+		  if ($(this).hasClass("block3")) { $("#project").load("projects/urb-ob/index.html", function(){ currentProject = 3; openproject() } ); } ;
 		  if ($(this).hasClass("block4")) { $("#project").load("projects/public-health/index.html", function(){ currentProject = 4; openproject() } ); } ;
 		  if ($(this).hasClass("block5")) { $("#project").load("projects/inca/index.html", function(){ currentProject = 5;openproject() } ); } ;
 		  if ($(this).hasClass("block7")) { $("#project").load("projects/industries/index.html", function(){ currentProject = 7; openproject() } ); } ;
 		  if ($(this).hasClass("block8")) { $("#project").load("projects/calcite-design-system/index.html", function(){ currentProject = 8; openproject() } ); } ;
 		  if ($(this).hasClass("block9")) { $("#project").load("projects/dashboard/index.html", function(){ currentProject = 9; openproject() } ); } ;
 		  if ($(this).hasClass("block11")) { $("#project").load("projects/my-esri/index.html", function(){ currentProject = 11; openproject() } ); } ;
-		  if ($(this).hasClass("block13")) { $("#project").load("projects/calcite-ui-icons/index.html", function(){ currentProject = 13; openproject() } ); } ;
+		//   if ($(this).hasClass("block13")) { $("#project").load("projects/calcite-ui-icons/index.html", function(){ currentProject = 13; openproject() } ); } ;
 		  //if ($(this).hasClass("block15")) { $("#project").load("projects/programs-dashboard/index.html", function(){ currentProject = 15; openproject() } ); } ;
 		  if ($(this).hasClass("block14")) { $("#project").load("projects/esri-product-logos/index.html", function(){ currentProject = 14; openproject() } ); } ;
 		  if ($(this).hasClass("block16")) { $("#project").load("projects/calcite-components/index.html", function(){ currentProject = 16; openproject() } ); } ;
+		  if ($(this).hasClass("block17")) { $("#project").load("projects/automated-system-icons/index.html", function(){ currentProject = 17; openproject() } ); } ;
 		});
 	  
 		$(".icon").click(function(){
@@ -174,18 +175,19 @@ $(function() {
 		  bgColor = $(this).find(".fond").css("background-color");
 		  $("#project").removeClass("visible");
 		  if ($(this).hasClass("icon1")) { $("#project").load("../projects/zip-tapestry/index.html", function(){ currentProject = 1; vTop2 = "400px"; openproject() } ); } ;
-		  if ($(this).hasClass("icon2")) { $("#project").load("../projects/urb-ob-site/index.html", function(){ currentProject = 2; vTop2 = "400px"; openproject() } ); } ;
-		  if ($(this).hasClass("icon3")) { $("#project").load("../projects/urb-ob-ui/index.html", function(){ currentProject = 3; vTop2 = "400px"; openproject() } ); } ;
+		//   if ($(this).hasClass("icon2")) { $("#project").load("../projects/urb-ob-site/index.html", function(){ currentProject = 2; vTop2 = "400px"; openproject() } ); } ;
+		  if ($(this).hasClass("icon3")) { $("#project").load("../projects/urb-ob/index.html", function(){ currentProject = 3; vTop2 = "400px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon4")) { $("#project").load("../projects/public-health/index.html", function(){ currentProject = 4; vTop2 = "830px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon5")) { $("#project").load("../projects/inca/index.html", function(){ currentProject = 5; vtop2 = "830px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon7")) { $("#project").load("../projects/industries/index.html", function(){ currentProject = 7; vTop2 = "1260px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon8")) { $("#project").load("../projects/calcite-design-system/index.html", function(){ currentProject = 8; vTop2 = "1260px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon9")) { $("#project").load("../projects/dashboard/index.html", function(){ currentProject = 9; vTop2 = "1260px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon11")) { $("#project").load("../projects/my-esri/index.html", function(){ currentProject = 11; vTop2 = "1260px"; openproject() } ); } ;
-		  if ($(this).hasClass("icon13")) { $("#project").load("../projects/calcite-ui-icons/index.html", function(){ currentProject = 13; vTop2 = "1260px"; openproject() } ); } ;
+		//   if ($(this).hasClass("icon13")) { $("#project").load("../projects/calcite-ui-icons/index.html", function(){ currentProject = 13; vTop2 = "1260px"; openproject() } ); } ;
 		  //if ($(this).hasClass("icon15")) { $("#project").load("../projects/programs-dashboard/index.html", function(){ currentProject = 15; vTop2 = "1260px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon14")) { $("#project").load("../projects/esri-product-logos/index.html", function(){ currentProject = 14; vTop2 = "1260px"; openproject() } ); } ;
 		  if ($(this).hasClass("icon16")) { $("#project").load("../projects/calcite-components/index.html", function(){ currentProject = 16; vTop2 = "1260px"; openproject() } ); } ;
+		  if ($(this).hasClass("icon17")) { $("#project").load("../projects/automated-system-icons/index.html", function(){ currentProject = 17; vTop2 = "1260px"; openproject() } ); } ;
 	  
 		});
 	  

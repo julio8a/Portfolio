@@ -1,0 +1,123 @@
+
+<!doctype html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <link type="text/css" rel="stylesheet" href="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/style.css">
+    <script type="text/javascript" charset="utf-8" src="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/js/page_context.js"></script>
+    <style type="text/css"></style>
+</head>
+<body screen_capture_injected="true">
+    <div class="banner">
+    	<img src="projects/automated-system-icons/images/banner.jpg" />
+    </div>
+    <div class="center light no-devices">
+        <div class="intro">
+            <h1>Automated System Icons</h1>
+            <p>This project automates the process of downloading, optimizing, and integrating icon updates from Figma into the design system (codebase), providing changelog feedback directly back to Figma via webhooks. Additionally, a Figma linter widget that checks for any errors in the icons before they can be merged, ensuring quality and consistency in the design system from the start.</p>
+        </div>
+
+        <h2>The problem</h2>
+        <ol>
+            <li><b>Lack of Centralized Icon Repository:</b> There was no centralized location to find icons.</li>
+            <li><b>Multiple Versions of the Same Icon:</b> Without a central repository, multiple icons for the same concept were being created.</li>
+            <li><b>Conflicting Icon Concepts and Wasted Time:</b> The creation of conflicting icons caused confusion and wasted time.</li>
+            <li><b>Difficulty in Accessing Updates:</b> Once static icon files were downloaded, they became stagnant and quickly outdated. </li>
+            <li><b>Inefficient Delivery Methods:</b> Icons were often delivered via zip files in emails, an outdated and inefficient method.</li>
+            <li><b>Broken SVG Path Data and Sizing Issues:</b>Issues like broken SVG path data, improper fill rules, inconsistent sizing, and icons not being properly centered were common</li>
+        </ol>
+
+        <h2>The solution</h2>
+        <p>A centralized repository of icons hosted on Github. Additionally, the repository can be sourced vis NPM, so that whenever there is a new release of icons users will be notified of updates, deletion or additions to the library. This will ensure that everyone leveraging this icons system is always up to date with the latest. Creating consistency across the platform. </p>
+        
+        <h3>Figma Widget - Icons Linter</h3>
+
+        <p>The Figma Widget Icons Linter goes through all of the icon components in Figma and checks them against certain criteria. If the icon component or any of the variants (16, 24, 32 or outline / filled) do not pass, the linter will throw errors in the widget. From here a user can click on the specific icons to fix them errors.</p>
+
+        <p><b>Linter criteria:</b></p>
+        <ul>
+            <li>Too many layers: All icons should be merged into just <b>ONE</b> layer.</li>
+            <li>Naming issues: Missing coponent or varianat name/issue</li>
+            <li>Fille rule: Meets Fill Rule Editor standards (Non-Zero Rule)</li>
+        </ul>
+
+        <div id="captures">
+            <div class="capture">
+                <img src="projects/automated-system-icons/images/image_2.jpg">
+            </div>
+        </div>
+
+        <h3>Empowering Designers with Direct Pull Request Control</h3>
+        <p>We are empowering the icon team to directly initiate a pull request on the SVG code repository, eliminating the need for back-and-forth between engineering and designers about what icons have been added or updated.</p> 
+        <p>When a designer comments with a specific phrase, like "create PR", it triggers a Figma webhooks sends a payload to an endpoint. At the endpoint, we validate the payload against certain conditions to ensure the correct action is triggered. We verify:</p>
+        <div id="captures">
+            <div class="capture">
+                <img src="projects/automated-system-icons/images/gif_1.gif" width="1000">
+            </div>
+        </div>
+        <ul>
+            <li><b>Event type:</b> Must be FILE_COMMENT (triggered by a comment).</li>
+            <li><b>Figma file ID:</b> The payload must match the designated file for the icon library.</li>
+            <li><b>Passcode:</b> A secure passcode is required to ensure the webhook originates from Figma.</li>
+            <li><b>Comment:</b> The comment text must match the expected phrase.</li>
+        </ul>
+
+            <br>
+
+            <p>If all conditions are met, the system triggers a GitHub action that performs the following:</p>
+        <ul>
+            <li>Downloads the icons.</li>
+            <li>Optimizes the icons using SVGO.</li>
+            <li>Collects icon metadata.</li>
+            <li>Creates a commit and pull request with a detailed changelog.</li>
+            <li>Posts the pull request URL and changelog back to Figma.</li>
+        </ul>
+
+        <br>
+        <p>Once complete, the action posts the Pull Request URL along with a changelog of the updated icons, allowing the icon team to easily verify changes directly against the Figma file.</p>
+
+        <div id="captures">
+            <div class="capture">
+                <img src="projects/automated-system-icons/images/gif_1.gif" width="1000">
+            </div>
+        </div>
+
+        <!-- <div class="url">
+            <p>View project on Github</p>
+            <a href="https://github.com/Esri/calcite-ui-icons" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.58 31.77">
+                    <path d="M16.29 0a16.29 16.29 0 0 0-5.15 31.75c.81.15 1.11-.35 1.11-.79v-2.77C7.7 29.18 6.74 26 6.74 26a4.31 4.31 0 0 0-1.81-2.38c-1.48-1 .11-1 .11-1a3.42 3.42 0 0 1 2.5 1.68 3.47 3.47 0 0 0 4.74 1.35 3.48 3.48 0 0 1 1-2.18c-3.58-.39-7.38-1.79-7.38-8.03a6.3 6.3 0 0 1 1.68-4.37 5.86 5.86 0 0 1 .16-4.31s1.37-.44 4.48 1.67a15.44 15.44 0 0 1 8.16 0c3.11-2.11 4.48-1.67 4.48-1.67a5.85 5.85 0 0 1 .14 4.31 6.29 6.29 0 0 1 1.67 4.37c0 6.26-3.81 7.63-7.44 8a3.89 3.89 0 0 1 1.11 3v4.47c0 .54.29.94 1.12.78A16.29 16.29 0 0 0 16.29 0z" />
+                </svg>
+            </a>
+        </div> -->
+
+        <h3>Other key features of the icon library:</h3>
+        <ul>
+            <li>Icons come in two styles: outline and filled</li>
+            <li>Icons available in 3 sizes (16, 24, and 32)</li>
+            <li>All icons come with search tags to ensure users are using the appropriate concept</li>
+        </ul>
+
+        <div id="captures">
+            <div class="capture">
+                <img src="projects/automated-system-icons/images/image_1.jpg">
+            </div>
+        </div>
+
+
+        <h2>Summary</h2>
+
+        <p>This project significantly reduces the time and manual effort required to publish, manage, and maintain icon libraries within the design system. By automating the integration of icons from Figma into the codebase, we’ve achieved an 80% reduction in the time it takes to publish icons. Designers now have full control over initiating pull requests, eliminating the need for back-and-forth with engineers and reducing manual hand-offs.</p>
+
+        <p>Key outcomes of the automation process include:</p>
+
+        <ul>
+            <li>Faster Publishing: Reduced the icon publishing process by 80%.</li>
+            <li>Optimized Icons: All icons are automatically optimized with SVGO, ensuring high performance.</li>
+            <li>Improved Icon Accessibility: Designers can easily find icons through searchable tags and metadata, streamlining the design workflow.</li>
+            <li>Consistency Across the Platform: A centralized icon repository ensures all teams are always up-to-date, preventing the creation of conflicting or redundant icons.</li>
+            <li>Automated Pull Requests: Designers can trigger pull requests directly from Figma, streamlining the update process and minimizing errors.</li>
+            <li>Enhanced Icon Quality: A Figma linter widget checks for issues like broken SVG path data, improper fill rules, and inconsistent icon sizes, ensuring icons are error-free before being merged.</li>
+            <li>By centralizing the repository, automating icon delivery, and optimizing processes, this solution fosters collaboration, improves efficiency, and ensures design consistency across the platform.</li>
+        </ul>
+
+	</div></body></html>
