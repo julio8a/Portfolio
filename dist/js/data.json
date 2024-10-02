@@ -10,23 +10,18 @@
                 "para3": "Want to work on a project together?"
             }
         ]},
-        { "services": [
-            {"service":"Experience Design & Strategy"},
-            {"service":"Brainstorm Workshop Facilitation"},
-            {"service":"Workflow Diagramming"},
-            {"service":"Information Architecture"},
-            {"service":"Wireframing & Prototypes"},
-            {"service":"Graphics / Interface Design"},
-            {"service":"Web Development"},
-            {"service":"Usability Research"},
-            {"service":"Branding & Marketing"},
-            {"service":"Brand Strategy"},
-            {"service":"Social Media Strategy"}
-        ]},
         { "experience" : [
             {
-                "dateCompany":"2017 to Present – Esri",
-                "jobTitle": "Design Program Manager"
+                "dateCompany":"2022 to Present – Yahoo!",
+                "jobTitle": "Design Systems Lead"
+            },
+            {
+                "dateCompany":"2021 to 2022 – State Farm (Quanata)",
+                "jobTitle": "Design Systems Lead"
+            },
+            {
+                "dateCompany":"2017 to 2021 – Esri",
+                "jobTitle": "Design System Manager"
             },
             {
                 "dateCompany":"2016 to 2017 – Esri",
@@ -39,14 +34,6 @@
             {
                 "dateCompany":"2015 to 2015 – University of Redlands",
                 "jobTitle": "Adjunct Instructor"
-            },
-            {
-                "dateCompany":"2011 to 2013 – FindLegalForms Inc.",
-                "jobTitle": "UI / UX & Front-End Developer"
-            },
-            {
-                "dateCompany":"2009 to 2015 – JCO Designs",
-                "jobTitle": "Owner / Information Architect"
             }
         ]},
         { "navigation" : [

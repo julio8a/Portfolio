@@ -65,6 +65,15 @@ footer {
 
 .resume {
 	float: right;
-	color: #007ac2;
 	margin: -40px 30px 0 0;
+	border: 1px solid #007ac2;
+	border-radius: 9999px;
+	padding: 8px 16px;
+	z-index: 9999;
+	top: -18px;
+	position: relative;
+	&:hover {
+		background: #007ac2;
+		color: #fff !important;
+	}
 }

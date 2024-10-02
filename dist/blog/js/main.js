@@ -81,7 +81,7 @@ $(function() {
 		  $("#about").css("marginTop", -50);
 		  $("#contact").css("marginTop", -50);
 		  $("#header a").removeClass("current");
-		  $("#header").css("top", "550px");
+		  $("#header").css("top", "500px");
 		  setTimeout(function() {
 			$("#about").addClass("visible");
 			$("#contact").addClass("visible");
@@ -90,8 +90,8 @@ $(function() {
 		}
 	  
 		function menuferme() {
-		  $("#about").css("marginTop", "-550px");
-		  $("#contact").css("marginTop", "-550px");
+		  $("#about").css("marginTop", "-500px");
+		  $("#contact").css("marginTop", "-500px");
 		  $("#header a").removeClass("current");
 		  $(".work").addClass("current");
 		  $("#header").css("top", "0");

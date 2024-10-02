@@ -2,9 +2,9 @@ $(function() {
 
 	$.when(
 	  $.getJSON('js/data.json', function(data) {
-		var servicesTemplate = $('#servicesTemplate').html();
-		var servicesResults = Mustache.to_html(servicesTemplate, data);
-		$('#services ul').append(servicesResults);
+		// var servicesTemplate = $('#servicesTemplate').html();
+		// var servicesResults = Mustache.to_html(servicesTemplate, data);
+		// $('#services ul').append(servicesResults);
   
 		var experienceTemplate = $('#experienceTemplate').html();
 		var experienceResults = Mustache.to_html(experienceTemplate, data);
@@ -118,7 +118,7 @@ $(function() {
 		  $("#about").css("marginTop", 0);
 		  $("#contact").css("marginTop", 0);
 		  $("#header a").removeClass("current");
-		  $("#header").css("top", "550px");
+		  $("#header").css("top", "500px");
 		  setTimeout(function() {
 			$("#about").addClass("visible");
 			$("#contact").addClass("visible");
@@ -127,8 +127,8 @@ $(function() {
 		}
 	  
 		function menuferme() {
-		  $("#about").css("marginTop", "-550px");
-		  $("#contact").css("marginTop", "-550px");
+		  $("#about").css("marginTop", "-500px");
+		  $("#contact").css("marginTop", "-500px");
 		  $("#header a").removeClass("current");
 		  $(".work").addClass("current");
 		  $("#header").css("top", "0");
