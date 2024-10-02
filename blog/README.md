@@ -1,1 +1,0 @@
-# Julio Ochoa's blog
