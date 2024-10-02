@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<section class="single-wrap">
+  <article class="single-content" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="feat">
+      <h5 class="page-date">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ page.date | date_to_long_string }}
+          {{ post.author }}
+        </time>
+      </h5>
+    </div>
+    <h1 class="page-title" itemprop="name headline">{{ page.title }}</h1>
+    <img itemprop="post image" src="{{ site.baseurl }}{{ page.featuredImg }}" />
+    <div itemprop="articleBody">
+      {{ content }}
+    </div>
+    <a href="{{ site.baseurl | split:'/' | join:'/' | append:'/'  }}">
+      <div class="back-to-blog">
+      ← Back to blog posts
+      </div>
+    </a>
+    {% if page.next %}
+      <a rel="next" href="{{ site.baseurl }}{{ page.next.url }}" id="next">
+        <span class="nav-title nav-title-next">newer</span> &rarr;
+      </a>
+    {% endif %}
+    {% if page.previous %}
+      <a rel="prev" href="{{ site.baseurl }}{{ page.previous.url }}" id="prev">
+        &larr; <span class="nav-title nav-title-prev">older</span>
+      </a>
+    {% endif %}
+  </article>
+</section>

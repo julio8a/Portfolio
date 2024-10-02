@@ -1,0 +1,40 @@
+---
+
+layout: post
+title:  "Chaos Theory and Organizational Strategy "
+date:   2016-12-20
+featuredImg: /assets/img/posts/chaos-theory.jpg
+
+---
+
+“One of the enduring problems facing the field of strategic management is the lack of theoretical tools available to describe and predict the behavior of firms and industries” (Levy, 1994, p. 167), a powerful statement presented by Levy for firms operating in the twenty-first century. As firms continue to grow and develop, the organization system becomes more complex and unpredictable. In this article, I will explain the concept of chaos theory and how it affects organizations. Furthermore, I will present the pros and cons of chaos theory in management and the overall impact of the decision-making process. Lastly, I will discuss how chaos theory and strategy impacts me and how I can utilize this theory to benefit my understanding of corporate systems and methods of operation.
+
+## What is chaos theory?
+
+In short, chaos theory is the study of complex, nonlinear, dynamic systems. The most common statement associated with chaos theory states, “It’s poetic, the notion that the flap of a butterfly’s wing in Brazil can set off a cascade of atmospheric events that, weeks later, spurs the formation of a tornado in Texas” (Wolchover, 2011). In this case, the attribution to weather pattern and its unpredictability has an Infinitum source of association, which makes it practically impossible to predict weather patterns more than a few days out. There is an unmeasurable amount of components that affect the weather, which in turn affects the forecasting abilities for meteorologists to make accurate predictions. In contrast to weather patterns, tossing a coin or rolling a die are deterministic systems, but still, produce a random outcome. If we go into further details of tossing a coin, chaos theory suggests that are infinitum ways to flip a coin. Moreover, Levy states, “Not only is it impossible to toss a coin twice in exactly the same way but on each toss the coin is subject to slightly different air currents, themselves a result to turbulent air flow” (Levy, 1994, p. 168).
+
+If we conceptualize organizations, corporations, and industries as complex, dynamic nonlinear systems, then we can apply the concepts of chaos theory to our everyday jobs as managers. Corporations interact with each other constantly, whether it’s vendors, suppliers or direct competition. According to Levy all of the interactions corporations participate in are strategic in the sense that decisions by one corporations take into account anticipated reactions by others (Levy, 1994, p170). Therefore, corporate macro and micro action will be interdependence. In chaos theory, small disturbances in one corporation multiply over time in a nonlinear fashion. Consequently, the initial action might affect other corporations. In chaos theory one can’t account for every single variable affecting the organization, this makes forecasting and long term planning difficult to achieve. Traditional concepts and paradigms of strategy suggest that small changes in parameters should lead to correspondingly small changes in the equilibrium outcome. Chaos theory contradicts this concept and forces us to analyze how small changes can produce enormous consequences.
+
+## Chaos theory pros
+
+What I view as a benefit to chaos theory is the depth of understanding. Chaos theory forces us to step back and look at the bigger picture and assess if other variables are affecting our outcome, whether big or small. Though in the case of a butterfly in Brazil flapping its wing causes a tornado in Texas is a bit far-fetched, other sources might be obtainable like how is the competition in another country affecting our domestic sales. A more detailed analysis could be a competitor missing its production output deadline for a quarter. Therefore, they did not have enough supply causing their customers to buy from us (the competitor). This, in turn, might cause our organization to believe internal sources caused the increase in sales when in fact it was a competitor error that increased sales. In this example, increased sales should be attributed to external factors, which at times can be chaotic. I see the concept of chaos theory as extremely valuable to the organization, as there are thousands of variables in play, which affect an overall system. In my opinion, the more variables we can account for, the more control we have, causing more accurate forecasting.
+
+## Chaos theory cons
+
+Chaos theory has a far reach when it comes to actions and reaction, which is very difficult to find the initial source of the result. According to Levy, “The size of fluctuations from one period to the next in chaotic systems vary in size” (Levy, 1994, 171), suggesting that managers might underestimate the potential for large changes in industry conditions or competitors’ behavior. A big negative feature of chaos theory is predictability. It’s difficult to determine how the outcome was achieved when other factors outside of our control have influence in results, which can make it difficult to reproduce effective results. How much do we attribute from our skills and knowledge and how much do we attribute t the randomness of other components outside of our immediate environment to our results? Chaos theory doesn’t give us much information as to distribution and impact of outside variables affecting our outcomes. The more variables there are in play, the more subject our outcome is to chaos.
+
+## How I would use it
+
+From my initial analysis it’s apparent that chaos theory is very complex. It is one way of looking at organization, which are dynamic, complex and nonlinear. I will use the chaos theory model at work and at home to find sources of results and outcomes. I believe it will help me look at results in a different perspective, it will help me step back and look at other components which are helping or hindering my desired outcome. From understanding chaos theory, I will attempt to reduce the amount of components and variables inside systems, so that there is less room for chaotic events, which in turn will affect other components and in turn the system. Another positive concept of chaos they that I find useful is patterns. Chaos theory is subject to produce patterns, but rarely are they exact replicas or duplicates, which at times make it difficult to spot reoccurring events and the differences they have. As a manager I will need to understand how teams work as a unit and how they each attribute to the overall team and how a little effect such as a team member getting a flat tire will affect a project outcome. I find chaos theory very interesting and I will continue to research and understand this concept which accounts for so many unknown variables.
+
+## Summary
+
+In summary, I’ve reviewed the concept of chaos theory: the study of complex, nonlinear, dynamic systems and the capacity at which they function. Furthermore, I explained how chaos theory affects organizational strategy, overall performance and outcomes, which is implemented industry wide. Next, I reviewed the pros and cons of chaos theory, from being aware of external components of the system and how they affect outcomes, to the negative feature of unpredictability in chaos. Finally, I talked about how I can apply the concepts of chaos theory into my workplace.
+
+### References:
+
+Levy, David. (1994). Chaos Theory and Strategy: Theory, Application, and Managerial Implications. Strategic Management Journal, Vol. 15, 167 – 178
+
+Wolchover, Natalie. (2011) Can a Butterfly in Brazil Really Cause a Tornado in Texas? live science. Retrieved from <a target="_blank" rel="noopener noreferrer" href="http://www.livescience.com/17455-butterfly-effect-weather-prediction.html">http://www.livescience.com/17455-butterfly-effect-weather-prediction.html</a>
+
+Mendelson, Jonathan and Blumenthal, Elana (2003) Chaos Theory and Fractals. tnellen. Retrieved from <a target="_blank" rel="noopener noreferrer" href="http://www.tnellen.com/alt/chaos.html">http://www.tnellen.com/alt/chaos.html</a>

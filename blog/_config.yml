@@ -1,0 +1,43 @@
+# Title of your blog; shows in the header
+name: "The Business of Design"
+
+# Description of your content (will only be used on Google Search)
+description: "Julio Ochoa's Blog"
+
+# Your name. Will show in your footer + sidebar
+author: "Julio Ochoa"
+
+url: "julio8a.com"
+baseurl: "/blog"
+
+# A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
+author-bio: "About me"
+
+# Social Accounts (mine, as placeholders)
+
+twitter: julio8a
+github: julio8a
+dribbble: julio8a
+instagram: julio8a
+linkedIn: julio8a
+
+# Google Analytics (you may want to changes these with yours or even delete :)
+
+ga_domain: julio8a.com
+# ga_tracking_id: UA-47727049-1
+
+# Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
+
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: "/page/:num"
+
+# SCSS
+
+sass:
+  sass_dir: _scss
+  style: :compressed

@@ -1,0 +1,218 @@
+#about, #contact {
+	overflow: scroll;
+	position:fixed;
+	width:100%;
+	height:500px;
+	margin-top:-500px;
+	background: $white;
+	z-index:15;
+	transition: left 0s ease-out, margin-top .5s ease-out;
+	&.debut {
+		margin-top:-470px;
+		transition: left 0s ease-out, margin-top 0s ease-out;
+	}
+	&.visible {
+		transition: left 0.3s ease-out, margin-top 0.3s ease-out;
+	}
+	h3 {
+		color: $dark-gray;
+		font-size: 2rem;
+		margin: 50px 0 20px 0;
+		letter-spacing: 1px;
+		font-weight: normal;
+	}
+	p {
+		line-height: 1.5rem;
+		letter-spacing: 0.6px
+	}
+	a {
+		color: $color-main;
+		font-size: 1rem;
+		text-decoration: none;
+		border-bottom: $border-blue;
+	}
+}
+
+#about {
+	left : 0;
+}
+
+#contact {
+	left : 100%;
+}
+
+#aboutMe {
+	@include break(1109px) {
+		margin-left: 50px;
+	}
+	@include break(738px) {
+		width: 85%;
+	}
+	float:left;
+	width:425px;
+	font-weight:normal;
+	-webkit-font-smoothing:antialiased;
+	color:#666;
+	font-size: 1rem;
+	line-height:20px;
+	letter-spacing:1px;
+}
+
+#services {
+	@include break(991px) {
+		display: none;
+	}
+	float:left;
+	width:215px;
+	margin-left:80px;
+	font-weight:normal;
+	-webkit-font-smoothing:antialiased;
+	color:#666;
+	font-size: 1rem;
+	line-height:20px;
+	letter-spacing:1px;
+	ul {
+		padding: 0;
+		li {
+			margin: 5px;
+		}
+	}
+}
+
+
+#experience {
+	@include break(991px) {
+		margin-left: 50px;
+	}
+	@include break(738px) {
+		display: none;
+	}
+	float:left;
+	width:180px;
+	margin-left:20px;
+	font-weight:normal;
+	-webkit-font-smoothing:antialiased;
+	color:#666;
+	font-size: 1rem;
+	line-height:20px;
+	letter-spacing:1px;
+	small {
+		top: -15px;
+		position: relative;
+	}
+}
+
+
+span.job-title {
+	font-size:.9rem;
+	color:#444;
+	letter-spacing:0;
+}
+
+#contactleft, #contactright {
+	float:left;
+	width:315px;
+	font-weight:normal;
+	-webkit-font-smoothing:antialiased;
+	color:#777;
+	font-size: 1rem;
+	line-height:20px;
+	letter-spacing:1px;
+}
+
+#contactleft {
+	@include break(1109px) {
+		width: 280px;
+		margin-left: 50px;
+	}
+	@include break(738px) {
+		width: 80%;
+		margin-left: 20px;
+	}
+	input {
+		@include break(1109px) {
+			width: 80%;
+		}
+		@include break(738px) {
+			width: 100%;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		width: 273px;
+	}
+	h3 {
+		@include break(738px) {
+			margin-top: 20px;
+		}
+	}
+}
+
+#contactright {
+	@include break(1109px) {
+		margin-left: 20px;
+		width: 50%;
+	}
+	@include break(738px) {
+		width: 90%;
+	}
+	margin-left:50px;
+	width:615px;
+	textarea {
+		@include break(1109px) {
+			width: 90%;
+		}
+		@include break(738px) {
+			height: 50px;
+		}
+		width:573px;
+		height:214px;
+	}
+	legend {
+		@include break(738px) {
+			margin-top: 0;
+		}
+		margin-top:89px;
+	}
+}
+
+input, textarea {
+	border: $border-medium;
+	padding:15px 20px;
+	margin-top:10px;
+	margin-bottom:25px;
+	background:$white;
+	color:#666;
+}
+
+textarea {
+	resize: none;
+}
+
+
+input.envoyer {
+	@include break(738px) {
+		float: left;
+		margin-top: -10px;
+	}
+	background:$white;
+	border:1px solid #aaa;
+	color:#444;
+	text-transform:uppercase;
+	width:180px;
+	cursor:pointer;
+	font-weight:bold;
+	@include rounded(0);
+	margin: -10px 0 0 0;
+	float: right;
+	&:hover {
+		border: $border-blue;
+		color: #007ac2;
+	}
+}
+.center {
+	@include break(1109px) {
+		width: 100%;
+	}
+	width:980px;
+	margin:0 auto;
+}

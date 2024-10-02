@@ -1,0 +1,18 @@
+---
+
+layout: post
+title:  "What's this all about!?"
+date:   2016-12-05
+featuredImg: /assets/img/posts/why-blog.jpg
+
+---
+
+Before graduate school I didn’t do much writing. Now, one year into the program, I write about 10 pages per week and read a few chapters from 800 page traditional school books. Yes, I know, it sounds miserable doesn’t it? However, I’ve now grown to love writing and expressing my ideas and concepts through story telling, which would not have happened if I didn’t go to graduate school. How did I end up in graduate school? Esri (the company I work for) awarded me with a fellowship, which includes full tuition coverage, text books and other school expenses. The University of Redlands is not cheap! I am grateful for Esri’s belief in my abilities and what I can contribute to the organization in the future. Anyways, that’s how I ended up here, writing.
+
+I have a bachelors degree in design, in combination with my current MBA studies I plan on combining business and design – hence the title of this blog, The Business of Design. Currently I observe that most companies struggle with a disjointed channel of communication between these two mediums. This is where I plan to emphasis my efforts, bridging the gap of communication between business professionals (executives) and designers/developers (artists and math geniuses).
+
+In this blog I will be writing about design, technology, business, and so much more. Anything I see as valuable I plan to share with my readers, weather that be management techniques, new design trends, chaos theory, game theory or organizational behaviour. I will also write about books I’m reading and experiences in the workplace. The product/software industry is hot at the moment and I don’t see it cooling down anytime soon. Products/apps are everywhere and the Internet of Things is just a beginning.
+
+I hope that you find this blog helpful, and if not then hey – at least it helps me with writing and documenting my ideas on the ever growing place called the world wide web.
+
+– Julio
