@@ -54,12 +54,6 @@
                 "className": "contact",
                 "active": "",
                 "name": "Contact"
-            },
-            {
-                "URL":"/blog/index.html",
-                "className": "",
-                "active": "",
-                "name": "Blog"
             }
         ]},
         { "projectBlock" : [
